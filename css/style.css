@@ -16,7 +16,7 @@ grid-template-rows: auto;
 column-gap: 24px;
 
 /* placeholder: use your own font, size and color */
-font-family: "DM Serif Display", serif;
+font-family: "DM Serif Display", "Tuffy", serif;
   font-weight: 400;
   font-style: normal;
 line-height: 1.5;
