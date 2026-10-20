@@ -45,3 +45,7 @@ text-decoration: none;
 nav{
 grid-column: span 12;
 }
+
+header{
+  grid-column: span 4;
+}
