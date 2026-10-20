@@ -25,7 +25,9 @@ color: black;
 
 /* heading styling */
 h1, h2, h3 {
-
+font-family: "Tuffy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* links */
