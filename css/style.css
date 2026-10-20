@@ -43,5 +43,5 @@ text-decoration: none;
 }
 
 nav{
-grid-template-columns: span 12;
+grid-column: span 12;
 }
