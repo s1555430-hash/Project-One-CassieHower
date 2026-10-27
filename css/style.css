@@ -76,3 +76,7 @@ width: 100%;
 main{
    grid-column: span 7;
 }
+
+.span-2{
+  grid-column: span 2;
+}
