@@ -1,0 +1,86 @@
+/* reset */
+bento-box* {
+box-sizing: border-box;
+}
+
+.Bento-Box h1{
+ color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: relative;
+  height: 318px;
+  line-height: 0.9;
+  }
+
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body copy and grid starter */
+body {
+/* the page grid: 12 columns, same as your figma frame */
+max-width: 1440px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: auto;
+column-gap: 24px;
+
+/* placeholder: use your own font, size and color */
+font-family: "DM Serif Display", "Tuffy", serif;
+  font-weight: 400;
+  font-style: normal;
+color: black;
+}
+
+p{
+ border: 1.7px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+/* heading styling */
+h1, h2, h3 {
+font-family: "Tuffy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* links */
+a {
+color: inherit;
+text-decoration: none;
+}
+
+nav{
+grid-column: span 12;
+}
+
+header{
+  grid-column: span 4;
+}
+
+.grid-bento{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+column-gap: 15px;
+width: 100%;
+ grid-column: span 7;
+}
+
+main{
+   grid-column: span 7;
+}
+
+.span-2{
+  grid-column: span 2;
+}
+
+.span-row-2{
+  grid-row: span 2;
+}
