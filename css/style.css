@@ -1,9 +1,9 @@
 /* reset */
-bento-box* {
+bento box* {
 box-sizing: border-box;
 }
 
-bento-box-text{
+bento box-text{
  color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
