@@ -85,6 +85,6 @@ main{
   grid-row: span 2;
 }
 
-img{
-  
+.img{
+  background-size: 0.9;
 }
