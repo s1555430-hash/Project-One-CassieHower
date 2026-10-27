@@ -70,4 +70,5 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto;
 column-gap: 15px;
 width: 100%;
+ grid-column: span 7;
 }
