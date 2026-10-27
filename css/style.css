@@ -72,3 +72,7 @@ column-gap: 15px;
 width: 100%;
  grid-column: span 7;
 }
+
+main{
+   grid-column: span 7;
+}
