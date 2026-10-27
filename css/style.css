@@ -63,3 +63,10 @@ grid-column: span 12;
 header{
   grid-column: span 4;
 }
+
+.grid-bento{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+column-gap: 15px;
+}
