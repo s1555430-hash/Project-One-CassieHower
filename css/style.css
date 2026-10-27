@@ -1,4 +1,18 @@
 /* reset */
+bento-box* {
+box-sizing: border-box;
+}
+
+bento-box-text{
+ color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: relative;
+  height: 318px;
+}
+
 * {
    margin: 0;
     padding: 0;
